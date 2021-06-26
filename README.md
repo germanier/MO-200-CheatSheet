@@ -1,38 +1,47 @@
 # Microsoft Office Specialist: Excel Associate (Excel and Excel 2019) - Cheatsheet
 The plan for this repository is to create a comprehensive-ish cheatcheet for the MO-200 / Excel 2019 Associate Exam.
-The automatic program checking what you've done is lacking, to say the least. Though there's multiple ways of carrying out the tasks, it seems to only accept your work if you suffer through the ribbon menues (who thought this a brilliant idea?). 
 
-Hence why I make a start on this list. Do help out if there's some I missed. 
+The automatic program checking what you've done is lacking, to say the least. Though there's multiple ways of carrying out the tasks, it seems to only accept your work if you suffer through the ribbon menues (who thought of this a brilliant idea? 🤦). 
+
+Hence why I make a start on this list. Do help out if there's some I missed. 👍
+
 Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 
-## 1. Manage worksheets and workbooks (10-15%)
-* Import data into workbooks
-	* Import data from .txt files
-	* Import data from .csv files
 
-* Navigate within workbooks
-    * Search for data within a workbook
-    * Navigate to named cells, ranges, or workbook elements
-    * Insert and remove hyperlinks
- 
-* Format worksheets and workbooks
-    * Modify page setup
-    * Adjust row height and column width
-    * Customize headers and footers
+
+## 1. Manage worksheets and workbooks (10-15%)
+
+### 1.1 Import data into workbooks
+#### 1.1.1 Import data from .txt files
+Data -> From Text -> Import Text. Pick Delimiter (usually comma or tab). Takr care on where to load.
+#### 1.1.2 Import data from .csv files
+Too similar to .txt files above.
+
+### 1.2 Navigate within workbooks
+#### 1.2.1 Search for data within a workbook
+I have no idea
+####  1.2.2 Navigate to named cells, ranges, or workbook elements
+location table is top left of A1 cell. 
+####  1.2.3 Insert and remove hyperlinks
+right click -> insert hyperlink. Sometimes you have to link cells to one another, other times it is websites.
+###  1.3 Format worksheets and workbooks
+####  Modify page setup
+#### Adjust row height and column width
+#### Customize headers and footers
   
-Customize options and views
-    •	Customize the Quick Access toolbar
-    •	Display and modify workbook content in different views
-    •	Freeze worksheet rows and columns
-    •	Change window views
-    •	Modify basic workbook properties
-    •	Display formulas
+### 1.4 Customize options and views
+#### Customize the Quick Access toolbar
+#### 	Display and modify workbook content in different views
+#### 	Freeze worksheet rows and columns
+#### 	Change window views
+#### 	Modify basic workbook properties
+#### 	Display formulas
   
-Configure content for collaboration
-  •	Set a print area
-  •	Save workbooks in alternative file formats
-  •	Configure print settings
-  •	Inspect workbooks for issues
+### 1.5 Configure content for collaboration
+  #### 	Set a print area
+  #### 	Save workbooks in alternative file formats
+  #### 	Configure print settings
+  #### 	Inspect workbooks for issues
 
 ## 2. Manage data cells and ranges
 
