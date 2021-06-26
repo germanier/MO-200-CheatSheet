@@ -1,21 +1,24 @@
 # Microsoft Office Specialist: Excel Associate (Excel and Excel 2019) - Cheatsheet
-The plan for this repository is to collect all the tasks the MO-200 / Excel 2019 Associate Exam has.
-Do help out if there's some I missed. Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
+The plan for this repository is to create a comprehensive-ish cheatcheet for the MO-200 / Excel 2019 Associate Exam.
+The automatic program checking what you've done is lacking, to say the least. Though there's multiple ways of carrying out the tasks, it seems to only accept your work if you suffer through the ribbon menues (who thought this a brilliant idea?). 
+
+Hence why I make a start on this list. Do help out if there's some I missed. 
+Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 
 ## 1. Manage worksheets and workbooks (10-15%)
-Import data into workbooks
-	•	Import data from .txt files
-	•	Import data from .csv files
+* Import data into workbooks
+	* Import data from .txt files
+	* Import data from .csv files
 
-Navigate within workbooks
-    •	Search for data within a workbook
-    •	Navigate to named cells, ranges, or workbook elements
-    •	Insert and remove hyperlinks
-  
-Format worksheets and workbooks
-    •	Modify page setup
-    •	Adjust row height and column width
-    •	Customize headers and footers
+* Navigate within workbooks
+    * Search for data within a workbook
+    * Navigate to named cells, ranges, or workbook elements
+    * Insert and remove hyperlinks
+ 
+* Format worksheets and workbooks
+    * Modify page setup
+    * Adjust row height and column width
+    * Customize headers and footers
   
 Customize options and views
     •	Customize the Quick Access toolbar
