@@ -2,30 +2,28 @@
 The plan for this repository is to collect all the tasks the MO-200 / Excel 2019 Associate Exam has.
 Do help out if there's some I missed. Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 
-# 1. Manage worksheets and workbooks (10-15%)
-
+## 1. Manage worksheets and workbooks (10-15%)
 Import data into workbooks
-
-  •	Import data from .txt files
-  •	Import data from .csv files
+	•	Import data from .txt files
+	•	Import data from .csv files
 
 Navigate within workbooks
-  •	Search for data within a workbook
-  •	Navigate to named cells, ranges, or workbook elements
-  •	Insert and remove hyperlinks
+    •	Search for data within a workbook
+    •	Navigate to named cells, ranges, or workbook elements
+    •	Insert and remove hyperlinks
   
 Format worksheets and workbooks
-  •	Modify page setup
-  •	Adjust row height and column width
-  •	Customize headers and footers
+    •	Modify page setup
+    •	Adjust row height and column width
+    •	Customize headers and footers
   
 Customize options and views
-  •	Customize the Quick Access toolbar
-  •	Display and modify workbook content in different views
-  •	Freeze worksheet rows and columns
-  •	Change window views
-  •	Modify basic workbook properties
-  •	Display formulas
+    •	Customize the Quick Access toolbar
+    •	Display and modify workbook content in different views
+    •	Freeze worksheet rows and columns
+    •	Change window views
+    •	Modify basic workbook properties
+    •	Display formulas
   
 Configure content for collaboration
   •	Set a print area
@@ -33,7 +31,7 @@ Configure content for collaboration
   •	Configure print settings
   •	Inspect workbooks for issues
 
-# 2. Manage data cells and ranges
+## 2. Manage data cells and ranges
 
 Manipulate data in worksheets
   •	Paste data by using special paste options
