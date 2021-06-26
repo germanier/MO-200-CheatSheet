@@ -6,8 +6,10 @@ The automatic program checking what you've done is lacking, to say the least. Th
 Hence why I make a start on this list. Do help out if there's some I missed. 👍
 
 Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
+Mike's Office videos are also pretty good: https://www.youtube.com/channel/UC92eTyKmq0zOIjIK1ShycKw
 
-
+## 0. This is for the ones which I have no idea where to locate under yet.
+Change a string: Home -> Editing -> Find and Select -> Replace "stringA" with "stringB" -> Replace all
 
 ## 1. Manage worksheets and workbooks (10-15%)
 
@@ -23,7 +25,8 @@ I have no idea
 ####  1.2.2 Navigate to named cells, ranges, or workbook elements
 location table is top left of A1 cell. 
 ####  1.2.3 Insert and remove hyperlinks
-right click -> insert hyperlink. Sometimes you have to link cells to one another, other times it is websites.
+right click -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
+
 ###  1.3 Format worksheets and workbooks
 ####  Modify page setup
 #### Adjust row height and column width
@@ -45,21 +48,24 @@ right click -> insert hyperlink. Sometimes you have to link cells to one another
 
 ## 2. Manage data cells and ranges
 
-Manipulate data in worksheets
-  •	Paste data by using special paste options
-  •	Fill cells by using Auto Fill
-  •	Insert and delete multiple columns or rows
-  •	Insert and delete cells
+### 2.1 Manipulate data in worksheets
+  ####	Paste data by using special paste options
+  ####	Fill cells by using Auto Fill
+  ####	Insert and delete multiple columns or rows
+  ####	Insert and delete cells
   
-> Format cells and ranges
-  •	Merge and unmerge cells
-  •	Modify cell alignment, orientation, and indentation
-  •	Format cells by using Format Painter
-  •	Wrap text within cells
-  •	Apply number formats
-  •	Apply cell formats from the Format Cells dialog box
-  •	Apply cell styles
-  •	Clear cell formatting
+### 2.2 Format cells and ranges
+  #### 2.2.1	Merge and unmerge cells
+  Home -> Alignment -> Merge And Centre 
+  Note: Merge Across hidden in the Merge and Centre drop arrow - if "without changing the alignment of the text"
+  
+  #### 2.2.2	Modify cell alignment, orientation, and indentation
+  #### 2.2.3	Format cells by using Format Painter
+  #### 2.2.4	Wrap text within cells
+  #### 2.2.5	Apply number formats
+  #### 2.2.6	Apply cell formats from the Format Cells dialog box
+  #### 2.2.7	Apply cell styles
+  #### 2.2.8 Clear cell formatting
 
 > Define and reference named ranges
   •	Define a named range
