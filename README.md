@@ -1,4 +1,6 @@
 # Microsoft Office Specialist: Excel Associate (Excel and Excel 2019) - Cheatsheet
+Passing grade: 700
+
 The plan for this repository is to create a comprehensive-ish cheatcheet for the MO-200 / Excel 2019 Associate Exam.
 I forgot to add sample questions, but if you want then do help out with some of them.
 
@@ -176,6 +178,8 @@ Click table -> Table tools -> data -> remove duplicates
 I believe it is Table tools -> Data -> Sort. It allows you to set multiple hierarchies of sorting. I might be mistaken.
 
 ## 4. Perform operations by using formulas and functions (20-25%)
+quick tip: if you start righting a formula, below the top ribbon menues there lies an fx button. That'll give you a popup if you're uncomfortable with just writing it out like the pros, xd.
+
 ### 4.1 Insert references
 
 #### 4.1.1	Insert relative, absolute, and mixed references
@@ -218,7 +222,11 @@ Other conditionals:
 * MID(cell, n) gives the middle n characters of a cell
 
 #### 4.3.2	Format text by using UPPER(), LOWER(), and LEN() functions
-* UPPER
+* UPPER(cell) gives you the cell but all in uppercase 
+* LOWER(cell) gives you the cell but all in lowercase 
+* LEN(cell) returns the length of a string
+* PROPER(cell) gives you the cell but all in proper English 
+
 #### 4.3.3	Format text by using the CONCAT() and TEXTJOIN() functions
 * CONCAT() adds two strings together.
 * TEXTJOIN() is a new 2019 Excel formula which has a lot more fuunctionality (https://exceljet.net/excel-functions/excel-textjoin-function)
@@ -235,9 +243,11 @@ Click on a chart -> Chart Design -> Location -> Move Chart -> to a new sheet. Na
 ### 5.2 Modify charts
 
 #### 5.2.1	Add data series to charts
-
+chart tools/select data/can change the legends and other bits.
+Click on chart -> extend the coloured box that appears around the used (highlighted) cells.
 
 #### 5.2.2	Switch between rows and columns in source data
+Chart Tools -> Design switch row/column
 
 #### 5.2.3	Add and modify chart elements
 Click the chart -> (top-right of the chart) click the "+" button -> Select chart element
@@ -251,4 +261,5 @@ Click on chart -> Chart Design -> Chart Layouts -> Quick Layouts.
 Click on chart -> Chart Design -> Chart Styles -> Select whichever from the dropdown menu.
 
 #### 5.3.3	Add alternative text to charts for accessibility
+Click object -> Right click -> Edit alt text.
 
