@@ -114,6 +114,9 @@ File -> Info -> Inspect Workbook -> Check for issues.
   #### 2.1.3	Insert and delete multiple columns or rows
   
   #### 2.1.4	Insert and delete cells
+  Right click -> delete. or insert. move up/left/down/right dep. on what the question asks you.
+  
+  Else, if it's delete contents just highlight and delete with the "Del" key.
    
 ### 2.2 Format cells and ranges
 
@@ -236,6 +239,7 @@ Other conditionals:
 ### 5.1 Create charts
 
 #### 5.1.1	Create charts
+Pretty basic stuff. I believe it is select data -> insert -> chart (by type)
 
 #### 5.1.2	Create chart sheets
 Click on a chart -> Chart Design -> Location -> Move Chart -> to a new sheet. Name it accordingly.
