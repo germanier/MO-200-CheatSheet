@@ -10,11 +10,14 @@ I numbered the list for easier discovery 😄
 Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 Mike's Office videos are also pretty good: https://www.youtube.com/channel/UC92eTyKmq0zOIjIK1ShycKw
 
-## 0. This is for the ones which I have no idea where to locate under yet. Maybe they were taken out in the transition from Excel 2016 to 2019?
+## 0.0 These are some questions I have seen and have zero idea about
+Configure print settings -> "sett to always print cells A1:h17" "print out header in all sheets".
+
+## 0.1 This is for the ones which I have no idea where to locate under yet. Maybe they were taken out in the transition from Excel 2016 to 2019?
 
 * Subtotal feature: 
 "calculate the number of students by colour. insert a page break after each change, display a grand total in g39".
-highlight range (not table). Data -> Outline -> Subtotal. Select according details they ask you for.
+highlight range (not table). Data -> Outline -> Subtotal. Select according details they ask you for e.g. add each to city. show in amount. 
 
 * Image manipulation.
 Click on image -> Picture format -> you've all kinds of picture effects.
@@ -26,9 +29,7 @@ there's also rotate, size, etc all on there.
 * Switch axis of a chart:
 Click on chart -> Chart Design -> Data -> Switch Row/Column
 
-
 ## 1. Manage worksheets and workbooks (10-15%)
-
 
 ### 1.1 Import data into workbooks
 
@@ -37,7 +38,6 @@ Data -> From Text -> Import Text. Pick Delimiter (usually comma or tab). Takr ca
 
 #### 1.1.2 Import data from .csv files
 Too similar to .txt files above.
-
 
 ### 1.2 Navigate within workbooks
 
@@ -54,7 +54,6 @@ Location table is top left of A1 cell.
 Hyperlinks: 
 right click on cell -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
 
-
 ### 1.3 Format worksheets and workbooks
 
 #### 1.3.1 Modify page setup
@@ -65,7 +64,6 @@ This is all in the lowermost ribbon. Add, delete are pretty simple; change colou
 Just click a column and drag it up/dowm, or right click and gfo through the more comprehensive settings.
 
 #### 1.3.3 Customize headers and footers
-  
   
 ### 1.4 Customize options and views
 
@@ -88,6 +86,8 @@ File -> Info -> Properties. You may have to click the button to "show all proper
 ### 1.5 Configure content for collaboration
 
   #### 1.5.1 Set a print area
+  Highlight the table -> File -> Print -> Selection
+  """??Page Layout -> can set page breaks there?"""
   
   #### 1.5.2 Save workbooks in alternative file formats
   File -> Save As -> whatever other format. or ctrl+shift+v... 
@@ -98,9 +98,7 @@ File -> Info -> Properties. You may have to click the button to "show all proper
   "Hide personal information": 
 File -> Info -> Inspect Workbook -> Check for issues.
   
-  
-## 2. Manage data cells and ranges
-
+## 2. Manage data cells and ranges (20-25%)
 
 ### 2.1 Manipulate data in worksheets
 
@@ -109,12 +107,12 @@ File -> Info -> Inspect Workbook -> Check for issues.
   
   #### 2.1.2	Fill cells by using Auto Fill
   Grab the cell's lower-right corner, and drag down/left/etc to your heart's desire.
+  Auto Fill Options -> without formatting.
   
   #### 2.1.3	Insert and delete multiple columns or rows
   
   #### 2.1.4	Insert and delete cells
-  
-  
+   
 ### 2.2 Format cells and ranges
 
   #### 2.2.1	Merge and unmerge cells
@@ -131,7 +129,6 @@ File -> Info -> Inspect Workbook -> Check for issues.
   #### 2.2.7	Apply cell styles
   #### 2.2.8 Clear cell formatting
 
-
 ### 2.3 Define and reference named ranges
   #### 2.3.1	Define a named range
   #### 2.3.2	Name a table
@@ -139,22 +136,30 @@ File -> Info -> Inspect Workbook -> Check for issues.
   
 ### 2.4 Summarize data visually
   ### 2.4.1	Insert Sparklines
+  Sparklines are little diagrams or visual graphs contained in one cell. 
+  insert -> sparklines -> line (or others). select its data range.
+  
   ### 2.4.2	Apply built-in conditional formatting
+  Home -> Format -> Conditional Formatting. 
+  
   ### 2.4.3	Remove conditional formatting
+  Home -> Format -> Conditional Formatting. 
 
-
-
-## 3. Manage tables and table data
-
+## 3. Manage tables and table data (15-20%)
 
 ### 3.1 Create and format tables
 
 #### 3.1.1 Create Excel tables from cell ranges
+Structured range -> Table:
+select cells. insert -> table. select headers.
 
 #### 3.1.2 Apply table styles
-Click table -> Table design -> Table Styles -> More. Select correct style
+Click table -> Table design -> Table Styles -> More. Select correct style.
+
+Note: Every other row is "banded rows". yw!
 
 #### 3.1.3 Convert tables to cell ranges
+Select the table. Table -> Tools -> convert to range -> accept. 
 
 ### 3.2 Modify tables
  
@@ -165,7 +170,10 @@ Click table -> Table design -> Table Styles -> More. Select correct style
 ### 3.3 Filter and sort table data
 
 #### 3.3.1 Filter records
+Click table -> Table tools -> data -> remove duplicates
+
 #### 3.3.2 Sort data by multiple columns
+I believe it is Table tools -> Data -> Sort. It allows you to set multiple hierarchies of sorting. I might be mistaken.
 
 ## 4. Perform operations by using formulas and functions (20-25%)
 ### 4.1 Insert references
@@ -175,34 +183,48 @@ Click table -> Table design -> Table Styles -> More. Select correct style
 
 ### 4.2 Calculate and transform datas
 
-
 #### 4.2.1	Perform calculations by using the AVERAGE(), MAX(), MIN(), and SUM() functions
-SUM ()
+AVERAGE(range) = mean of the values inside. e.g. AVERAGE(A1:A7)
 
+MAX(range) = highest value in its range.  e.g. MAX(B2:B17)
+
+MIN(range) = highest value in its range.  e.g. MIN(B2:B17)
+
+SUM(range) = adds all the values in its range.  e.g. SUM(B2:B17)
 
 #### 4.2.2	Count cells by using the COUNT(), COUNTA(), and COUNTBLANK() functions
 " enter a function which will count the total number of cells with 'x'":
-number of cells -> COUNT () - int; or COUNTA () - str
 
-
-
+COUNT(range) = counts the amount of cells with a number inside
+COUNTA(range) = counts the amount of cells with anything inside. used for strings
+COUNTBLANK(range) = counts the amount of cells with nothing inside
 
 #### 4.2.3	Perform conditional operations by using the IF() function
-if
 
-conditional count
-countif(range, criteria) e.g. countif(a1:a7, "green")
+IF(logicaltest, true, false) : will do T or F on the basis of the logical test.
 
-conditional average XXXX
+For example, IF(A7>16, "Scooter", "Bicycle")
 
+Other conditionals:
+* SUMIF(range for criteria, criteria, sumrange) adds all cells if the condition is true, per cell basis e.g. SUMIF(B44:B77, "Food", C:44:C77) 
+* AVERAGEIF(range for criteria, criteria, avgrange)  averages all cells for which the condition holds true
+* COUNTIF(range for criteria, criteria). conditional count. (range, criteria) e.g. countif(a1:a7, "green")
 
 ### 4.3 Format and modify text
 
 #### 4.3.1	Format text by using RIGHT(), LEFT(), and MID() functions
-#### 4.3.2	Format text by using UPPER(), LOWER(), and LEN() functions
-#### 4.3.3	Format text by using the CONCAT() and TEXTJOIN() functions
+* RIGHT(cell, n) gives the rightmost n characters of a cell
+* LEFT(cell, n) gives the leftmost n characters of a cell
+* MID(cell, n) gives the middle n characters of a cell
 
-## 5. Manage charts
+#### 4.3.2	Format text by using UPPER(), LOWER(), and LEN() functions
+* UPPER
+#### 4.3.3	Format text by using the CONCAT() and TEXTJOIN() functions
+* CONCAT() adds two strings together.
+* TEXTJOIN() is a new 2019 Excel formula which has a lot more fuunctionality (https://exceljet.net/excel-functions/excel-textjoin-function)
+* TRIM(cell) removes odd spacings.
+
+## 5. Manage charts (20-25%)
 ### 5.1 Create charts
 
 #### 5.1.1	Create charts
