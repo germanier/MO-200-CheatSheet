@@ -1,5 +1,6 @@
 # Microsoft Office Specialist: Excel Associate (Excel and Excel 2019) - Cheatsheet
 The plan for this repository is to create a comprehensive-ish cheatcheet for the MO-200 / Excel 2019 Associate Exam.
+I forgot to add sample questions, but if you want then do help out with some of them.
 
 The automatic program checking what you've done is lacking, to say the least. Though there's multiple ways of carrying out the tasks, it seems to only accept your work if you suffer through the ribbon menues (who thought of this a brilliant idea? 🤦). 
 
