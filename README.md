@@ -9,12 +9,19 @@ I numbered the list for easier discovery 😄
 Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 Mike's Office videos are also pretty good: https://www.youtube.com/channel/UC92eTyKmq0zOIjIK1ShycKw
 
-## 0. This is for the ones which I have no idea where to locate under yet.
-Change a string: Home -> Editing -> Find and Select -> Replace "stringA" with "stringB" -> Replace all
+## 0. This is for the ones which I have no idea where to locate under yet. Maybe they were taken out in the transition from Excel 2016 to 2019?
 
-subtital feature: calculate the number of students by clolour.
-insert a page break after each change, display a grand total in g39
+* Subtotal feature: 
+"calculate the number of students by colour. insert a page break after each change, display a grand total in g39".
+highlight range (not table). Data -> Outline -> Subtotal. Select according details they ask you for.
 
+* Image manipulation.
+Click on image -> Picture format -> you've all kinds of picture effects.
+
+* Tab manipulation.
+This is all in the lowermost ribbon. Add, delete are pretty simple; change colour and other more niche features are a right click away.
+  * Hide: Right click hide on a worksheet.
+  * Unhide: Home -> Cells -> Format -> Hide & Unhide -> Unhide Sheet. Select that sheet.
 
 ## 1. Manage worksheets and workbooks (10-15%)
 
@@ -31,38 +38,55 @@ Too similar to .txt files above.
 ### 1.2 Navigate within workbooks
 
 #### 1.2.1 Search for data within a workbook
-I have no idea
+Find: Home -> Editing -> Find and Select -> Find
+Replace: Home -> Editing -> Find and Select -> Replace "stringA" with "stringB" -> Replace all
 
 #### 1.2.2 Navigate to named cells, ranges, or workbook elements
-location table is top left of A1 cell. 
+Location table is top left of A1 cell. 
 
 #### 1.2.3 Insert and remove hyperlinks
-right click -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
+Hyperlinks: right click on cell -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
 
 
 ### 1.3 Format worksheets and workbooks
 
 #### 1.3.1 Modify page setup
+
 #### 1.3.2 Adjust row height and column width
+
 #### 1.3.3 Customize headers and footers
   
   
 ### 1.4 Customize options and views
 
 #### 1.4.1 Customize the Quick Access toolbar
+
 #### 1.4.2 Display and modify workbook content in different views
+
 #### 1.4.3 Freeze worksheet rows and columns
+
 #### 1.4.4 Change window views
+
 #### 1.4.5 Modify basic workbook properties
+Change/Add/Delete property "X"
+File -> Info -> Properties. You may have to click the button to change properties.
+
+"Hide personal information"
+File -> Info -> Inspect Workbook -> Check for issues.
+
 #### 1.4.6 Display formulas
   
   
 ### 1.5 Configure content for collaboration
-  #### 1.5.1 Set a print area
-  #### 1.5.2 Save workbooks in alternative file formats
-  #### 1.5.3 Configure print settings
-  #### 1.5.4 Inspect workbooks for issues
 
+  #### 1.5.1 Set a print area
+  
+  #### 1.5.2 Save workbooks in alternative file formats
+  
+  #### 1.5.3 Configure print settings
+  
+  #### 1.5.4 Inspect workbooks for issues
+  
 
 
 ## 2. Manage data cells and ranges
@@ -77,10 +101,12 @@ right click -> insert/remove hyperlink. Sometimes you have to link cells to one 
   Grab the cell's lower-right corner, and drag down/left/etc to your heart's desire.
   
   #### 2.1.3	Insert and delete multiple columns or rows
+  
   #### 2.1.4	Insert and delete cells
   
   
 ### 2.2 Format cells and ranges
+
   #### 2.2.1	Merge and unmerge cells
   Home -> Alignment -> Merge And Centre 
   Note: Merge Across hidden in the Merge and Centre drop arrow - if "without changing the alignment of the text"
@@ -99,7 +125,7 @@ right click -> insert/remove hyperlink. Sometimes you have to link cells to one 
 > Define and reference named ranges
   •	Define a named range
   •	Name a table
-  
+  Naming: Select cell/range -> top left of A1 -> whrite the name there
   
 > Summarize data visually
   •	Insert Sparklines
@@ -114,7 +140,10 @@ Manage tables and table data
 Create and format tables
 
 •	Create Excel tables from cell ranges
+
 •	Apply table styles
+Click table -> Table design -> Table Styles -> More. Select correct style
+
 •	Convert tables to cell ranges
 
 Modify tables
@@ -164,18 +193,27 @@ Manage charts
 Create charts
 
 •	Create charts
+
 •	Create chart sheets
+Click on a chart -> Chart Design -> Location -> Move Chart -> to a new sheet. Name it accordingly.
 
 Modify charts
 
 •	Add data series to charts
+
+
 •	Switch between rows and columns in source data
+
 •	Add and modify chart elements
+Click the chart -> (top-right of the chart) click the "+" button -> Select chart element
 
 Format charts
 
 •	Apply chart layouts
+Click on chart -> Chart Design -> Chart Layouts -> Quick Layouts.
  
 •	Apply chart styles
+Click on chart -> Chart Design -> Chart Styles -> Select whichever from the dropdown menu.
+
 •	Add alternative text to charts for accessibility
 
