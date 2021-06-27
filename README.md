@@ -17,11 +17,13 @@ highlight range (not table). Data -> Outline -> Subtotal. Select according detai
 
 * Image manipulation.
 Click on image -> Picture format -> you've all kinds of picture effects.
+there's also rotate, size, etc all on there.
 
-* Tab manipulation.
-This is all in the lowermost ribbon. Add, delete are pretty simple; change colour and other more niche features are a right click away.
   * Hide: Right click hide on a worksheet.
   * Unhide: Home -> Cells -> Format -> Hide & Unhide -> Unhide Sheet. Select that sheet.
+
+* Switch axis of a chart:
+Click on chart -> Chart Design -> Data -> Switch Row/Column
 
 ## 1. Manage worksheets and workbooks (10-15%)
 
@@ -38,19 +40,24 @@ Too similar to .txt files above.
 ### 1.2 Navigate within workbooks
 
 #### 1.2.1 Search for data within a workbook
-Find: Home -> Editing -> Find and Select -> Find
-Replace: Home -> Editing -> Find and Select -> Replace "stringA" with "stringB" -> Replace all
+Find: 
+Home -> Editing -> Find and Select -> Find
+Replace: 
+Home -> Editing -> Find and Select -> Replace "stringA" with "stringB" -> Replace all
 
 #### 1.2.2 Navigate to named cells, ranges, or workbook elements
 Location table is top left of A1 cell. 
 
 #### 1.2.3 Insert and remove hyperlinks
-Hyperlinks: right click on cell -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
+Hyperlinks: 
+right click on cell -> insert/remove hyperlink. Sometimes you have to link cells to one another, other times it is websites.
 
 
 ### 1.3 Format worksheets and workbooks
 
 #### 1.3.1 Modify page setup
+Tab manipulation: 
+This is all in the lowermost ribbon. Add, delete are pretty simple; change colour and other more niche features are a right click away.
 
 #### 1.3.2 Adjust row height and column width
 
@@ -62,30 +69,31 @@ Hyperlinks: right click on cell -> insert/remove hyperlink. Sometimes you have t
 #### 1.4.1 Customize the Quick Access toolbar
 
 #### 1.4.2 Display and modify workbook content in different views
+Lower Right corner. has three buttons for different views. not a very common question.
 
 #### 1.4.3 Freeze worksheet rows and columns
 
 #### 1.4.4 Change window views
 
 #### 1.4.5 Modify basic workbook properties
-Change/Add/Delete property "X"
-File -> Info -> Properties. You may have to click the button to change properties.
-
-"Hide personal information"
-File -> Info -> Inspect Workbook -> Check for issues.
+Change/Add/Delete property "X": 
+File -> Info -> Properties. You may have to click the button to "show all properties" sometimes. 
 
 #### 1.4.6 Display formulas
-  
+ Formulas -> Show Formulas.
   
 ### 1.5 Configure content for collaboration
 
   #### 1.5.1 Set a print area
   
   #### 1.5.2 Save workbooks in alternative file formats
+  File -> Save As -> whatever other format. or ctrl+shift+v... 
   
   #### 1.5.3 Configure print settings
   
   #### 1.5.4 Inspect workbooks for issues
+  "Hide personal information": 
+File -> Info -> Inspect Workbook -> Check for issues.
   
 
 
@@ -122,48 +130,48 @@ File -> Info -> Inspect Workbook -> Check for issues.
   #### 2.2.8 Clear cell formatting
 
 
-> Define and reference named ranges
-  •	Define a named range
-  •	Name a table
+### 2.3 Define and reference named ranges
+  #### 2.3.1	Define a named range
+  #### 2.3.2	Name a table
   Naming: Select cell/range -> top left of A1 -> whrite the name there
   
-> Summarize data visually
-  •	Insert Sparklines
-  •	Apply built-in conditional formatting
-  •	Remove conditional formatting
+### 2.4 Summarize data visually
+  ### 2.4.1	Insert Sparklines
+  ### 2.4.2	Apply built-in conditional formatting
+  ### 2.4.3	Remove conditional formatting
 
 
 
-Manage tables and table data
+## 3. Manage tables and table data
 
 
-Create and format tables
+### 3.1 Create and format tables
 
-•	Create Excel tables from cell ranges
+#### 3.1.1 Create Excel tables from cell ranges
 
-•	Apply table styles
+#### 3.1.2 Apply table styles
 Click table -> Table design -> Table Styles -> More. Select correct style
 
-•	Convert tables to cell ranges
+#### 3.1.3 Convert tables to cell ranges
 
-Modify tables
+### 3.2 Modify tables
  
-•	Add or remove table rows and columns
-•	Configure table style options
-•	Insert and configure total rows
+#### 3.2.1 Add or remove table rows and columns
+#### 3.2.2 Configure table style options
+#### 3.2.3 Insert and configure total rows
 
-Filter and sort table data
+### 3.3 Filter and sort table data
 
-•	Filter records
-•	Sort data by multiple columns
+#### 3.3.1 Filter records
+#### 3.3.2 Sort data by multiple columns
 
-Perform operations by using formulas and functions
-Insert references
+## 4. Perform operations by using formulas and functions (20-25%)
+### 4.1Insert references
 
 •	Insert relative, absolute, and mixed references
 •	Reference named ranges and named tables in formulas
 
-Calculate and transform datas
+### 4.2 Calculate and transform datas
 
 •	Perform calculations by using the AVERAGE(), MAX(), MIN(), and SUM() functions
 SUM ()
