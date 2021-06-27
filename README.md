@@ -26,6 +26,7 @@ there's also rotate, size, etc all on there.
 * Switch axis of a chart:
 Click on chart -> Chart Design -> Data -> Switch Row/Column
 
+
 ## 1. Manage worksheets and workbooks (10-15%)
 
 
@@ -61,6 +62,7 @@ Tab manipulation:
 This is all in the lowermost ribbon. Add, delete are pretty simple; change colour and other more niche features are a right click away.
 
 #### 1.3.2 Adjust row height and column width
+Just click a column and drag it up/dowm, or right click and gfo through the more comprehensive settings.
 
 #### 1.3.3 Customize headers and footers
   
@@ -96,8 +98,7 @@ File -> Info -> Properties. You may have to click the button to "show all proper
   "Hide personal information": 
 File -> Info -> Inspect Workbook -> Check for issues.
   
-
-
+  
 ## 2. Manage data cells and ranges
 
 
@@ -167,23 +168,26 @@ Click table -> Table design -> Table Styles -> More. Select correct style
 #### 3.3.2 Sort data by multiple columns
 
 ## 4. Perform operations by using formulas and functions (20-25%)
-### 4.1Insert references
+### 4.1 Insert references
 
-•	Insert relative, absolute, and mixed references
-•	Reference named ranges and named tables in formulas
+#### 4.1.1	Insert relative, absolute, and mixed references
+#### 4.1.2	Reference named ranges and named tables in formulas
 
 ### 4.2 Calculate and transform datas
 
-•	Perform calculations by using the AVERAGE(), MAX(), MIN(), and SUM() functions
+
+#### 4.2.1	Perform calculations by using the AVERAGE(), MAX(), MIN(), and SUM() functions
 SUM ()
 
-•	Count cells by using the COUNT(), COUNTA(), and COUNTBLANK() functions
+
+#### 4.2.2	Count cells by using the COUNT(), COUNTA(), and COUNTBLANK() functions
 " enter a function which will count the total number of cells with 'x'":
 number of cells -> COUNT () - int; or COUNTA () - str
 
 
 
-•	Perform conditional operations by using the IF() function
+
+#### 4.2.3	Perform conditional operations by using the IF() function
 if
 
 conditional count
@@ -192,37 +196,37 @@ countif(range, criteria) e.g. countif(a1:a7, "green")
 conditional average XXXX
 
 
-Format and modify text
+### 4.3 Format and modify text
 
-•	Format text by using RIGHT(), LEFT(), and MID() functions
-•	Format text by using UPPER(), LOWER(), and LEN() functions
-•	Format text by using the CONCAT() and TEXTJOIN() functions
+#### 4.3.1	Format text by using RIGHT(), LEFT(), and MID() functions
+#### 4.3.2	Format text by using UPPER(), LOWER(), and LEN() functions
+#### 4.3.3	Format text by using the CONCAT() and TEXTJOIN() functions
 
-Manage charts
-Create charts
+## 5. Manage charts
+### 5.1 Create charts
 
-•	Create charts
+#### 5.1.1	Create charts
 
-•	Create chart sheets
+#### 5.1.2	Create chart sheets
 Click on a chart -> Chart Design -> Location -> Move Chart -> to a new sheet. Name it accordingly.
 
-Modify charts
+### 5.2 Modify charts
 
-•	Add data series to charts
+#### 5.2.1	Add data series to charts
 
 
-•	Switch between rows and columns in source data
+#### 5.2.2	Switch between rows and columns in source data
 
-•	Add and modify chart elements
+#### 5.2.3	Add and modify chart elements
 Click the chart -> (top-right of the chart) click the "+" button -> Select chart element
 
-Format charts
+### 5.3 Format charts
 
-•	Apply chart layouts
+#### 5.3.1	Apply chart layouts
 Click on chart -> Chart Design -> Chart Layouts -> Quick Layouts.
  
-•	Apply chart styles
+#### 5.3.2	Apply chart styles
 Click on chart -> Chart Design -> Chart Styles -> Select whichever from the dropdown menu.
 
-•	Add alternative text to charts for accessibility
+#### 5.3.3	Add alternative text to charts for accessibility
 
