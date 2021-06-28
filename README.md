@@ -9,7 +9,9 @@ The automatic program checking what you've done is lacking, to say the least. Th
 Hence why I make a start on this list. Do help out if there's some I missed. 👍
 I numbered the list for easier discovery 😄
 
-v0.9 update: With this list, I got 978/1000 in the Excel 2019 Exam. :)
+v0.9.0 update: With this list, I got 978/1000 in the Excel 2019 Exam. :)
+
+v0.9.1 update: I can't figure out how to change the license. Anyway, do as you will provided you give some attribution in your footnotes: https://creativecommons.org/licenses/by/4.0/
 
 Syllabus list from https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3WKkC.
 Mike's Office videos are also pretty good: https://www.youtube.com/channel/UC92eTyKmq0zOIjIK1ShycKw
